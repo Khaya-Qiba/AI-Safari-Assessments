@@ -1,0 +1,44 @@
+Savannah Tracker Report: Precision Prompting Initiative
+Introduction
+In rural Kenya and Uganda, unclear health guidance can block access to care. Mothers living far from clinics need advice that matches their daily realities. Precision in prompting ensures that AI responses are practical, culturally suitable, and sensitive to local conditions. This approach builds trust and strengthens maternal health support.
+Nutrition Advice (Prompt A)
+Original Prompt: “Give nutrition tips for pregnant women.”
+Rewritten Prompt:
+"Act as a rural health nutrition expert. Provide three actionable, low-cost dietary adjustments for a pregnant woman in rural Kenya or Uganda. Focus on incorporating local staples like ugali or matooke with protein-rich additions (e.g., omena or legumes). Ensure the advice aligns with community food availability and budget constraints."
+AIM Framework
+Audience: Pregnant women in rural Kenya/Uganda
+Instruction: Provide three low-cost, local-staple-based dietary adjustments
+Method: Expert-level, locally sourced nutrition guidelines
+MAP Framework
+Model: Act as a rural health nutrition expert
+Action: Suggest protein-rich additions to ugali/matooke
+Parameters: Emphasize accessibility, affordability, and local availability
+Key Improvement: Cultural alignment ensures that nutrition advice is practical and grounded in local diets.
+Appointment Reminders (Prompt B)
+Original Prompt: “Remind users about doctor visits.”
+Rewritten Prompt:
+"As a Community Health Assistant, generate a reminder for a prenatal check-up. Include a prompt for the user to account for local travel time (e.g., walking distance to the nearest clinic) and verify if the local Community Health Worker has indicated clinic availability this week. Remind the user to ensure M-Pesa funds are ready for transport costs."
+AIM Framework
+Audience: Expectant mothers in rural areas
+Instruction: Generate a logistical reminder for prenatal visits
+Method: Consideration of transit, budget, and local personnel
+MAP Framework
+Model: Community Health Assistant
+Action: Request travel/budget planning and clinic verification
+Parameters: Incorporate M-Pesa transport needs and local transit limitations
+Key Improvement: Logistical context reduces missed appointments caused by travel or financial barriers.
+Emergency Triage (Prompt C)
+Original Prompt: “Tell me what to do if I feel unwell during pregnancy.”
+Rewritten Prompt:
+"Think step-by-step: 1. Ask the user to describe symptoms. 2. Compare symptoms against a provided list of 'Red Flag' conditions (e.g., severe bleeding, high fever, extreme swelling). 3. If a 'Red Flag' is present, advise immediate action: contact the nearest Community Health Worker or proceed to the clinic. 4. If symptoms are mild, suggest supportive care. Verifier Pattern: If you suggest the user go to the clinic, include a disclaimer that this is a screening tool, not a clinical diagnosis."
+AIM Framework
+Audience: Pregnant users needing immediate guidance
+Instruction: Systematic triage of symptoms using a safety-first logic
+Method: Step-by-step Chain-of-Thought with a mandatory disclaimer
+MAP Framework
+Model: Clinical triage assistant
+Action: Validate symptoms against specific danger signs
+Parameters: Prioritize immediate escalation for emergencies; provide a formal disclaimer
+Key Improvement: Structured triage reduces the risk of unsafe or vague advice.
+Reflection
+Precision prompting shifts AI from a general information source to a practical partner in rural maternal care. Each rewritten prompt embeds cultural, financial, and logistical realities into the guidance. This approach ensures that mothers receive advice that is safe, affordable, and context-specific. The Savannah Tracker Initiative demonstrates how structured prompts can transform AI into a reliable tool for maternal survival in regions where distance and cost often block access to care.
