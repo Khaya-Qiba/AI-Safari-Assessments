@@ -12,5 +12,5 @@ The project demonstrates how AI prompts can be rewritten to provide culturally s
 The report can be used as a reference for designing AI systems that act as practical partners in healthcare.
 Researchers, developers, and community health workers can adapt the prompts to local needs.
 ## License
-Specify your license here (MIT License) if you want others to reuse or adapt the work.
+ (MIT License)
  
